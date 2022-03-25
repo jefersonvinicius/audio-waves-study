@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+
+.input-audio-select {
+  margin-bottom: 10px;
+}
+
+.pids-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.pid {
+  width: calc(10% - 10px);
+  height: 10px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.canvas-box {
+  width: 100%;
+}
+
+.audio-result {
+  width: 100%;
+}
